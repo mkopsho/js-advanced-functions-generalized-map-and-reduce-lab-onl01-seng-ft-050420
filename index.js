@@ -1,3 +1,4 @@
+// using forEach
 function map(sourceArray, func) {
   const newArray = []
   sourceArray.forEach((el) => {
@@ -6,6 +7,7 @@ function map(sourceArray, func) {
   return newArray
 }
 
+// using for loops
 function reduce(sourceArray, func, startingPoint) {
   let total
   if (!startingPoint) {
